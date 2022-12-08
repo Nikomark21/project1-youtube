@@ -1,0 +1,210 @@
+            .sidebar {
+                border-style: none;
+                border-width: 1px;
+                position: fixed;
+                top: 56px;
+                left: 0px;
+                bottom: 0px;
+                width: 100px;
+                z-index: 1;
+                
+            }
+            @media (max-width: 500px) {
+                .sidebar{
+                    display: none;
+                }
+            }
+            
+            .sidebar-icon {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 80px;
+                cursor: pointer;
+            }
+            .side-text{
+                display: flex;
+                justify-content: center;
+            }
+            .sidebar-icon:hover {
+                background-color: gainsboro;
+            }
+            
+            .sidebar-icon img {
+                height: 24px;
+            }
+    .main-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 20px;
+    }
+    @media (max-width: 900px) {
+        .main-grid{grid-template-columns: 1fr 1fr;}
+    }
+    @media (max-width: 500px) {
+        .main-grid{grid-template-columns: 1fr;}
+    }
+        
+
+    .creator-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+    .creator-info {
+        margin-left: 15px;
+        cursor: pointer;
+    }
+
+    .thumbnail {
+        Width: 100%;
+        border-radius: 20px;
+        margin-bottom: 0px;
+        cursor: pointer;
+    }
+    .thumbnail2 {
+        Width: 100%;
+        border-radius: 20px;
+        margin-bottom: 0px;
+        cursor: pointer;
+    }
+            .div-thumbnail1 {
+                position: relative;
+            }
+            .div-thumbnail2 {
+                position: relative;
+            }
+            .div-thumbnail3 {
+                position: relative;
+            }
+            .div-thumbnail4 {
+                position: relative;
+            }
+            .div-thumbnail5 {
+                position: relative;
+            }
+            .div-thumbnail6 {
+                position: relative;
+            }
+            .div-thumbnail7 {
+                position: relative;
+            }
+            .div-thumbnail8 {
+                position: relative;
+            }
+            .div-thumbnail9 {
+                position: relative;
+            }
+            .video-time1 {
+                color: white;
+                background-color: black;
+                padding: 1px;
+                position: absolute;
+                bottom: 10px;
+                right: 15px;
+                border-radius: 3px;
+            }
+            .video-time2 {
+                color: white;
+                background-color: black;
+                padding: 1px;
+                position: absolute;
+                bottom: 10px;
+                right: 15px;
+                border-radius: 3px;
+            }
+            .video-time3 {
+                color: white;
+                background-color: black;
+                padding: 1px;
+                position: absolute;
+                bottom: 10px;
+                right: 15px;
+                border-radius: 3px;
+            }
+            .video-time4 {
+                color: white;
+                background-color: black;
+                padding: 1px;
+                position: absolute;
+                bottom: 10px;
+                right: 15px;
+                border-radius: 3px;
+            }
+            .video-time5 {
+                color: white;
+                background-color: black;
+                padding: 1px;
+                position: absolute;
+                bottom: 10px;
+                right: 15px;
+                border-radius: 3px;
+            }
+            .video-time6 {
+                color: white;
+                background-color: black;
+                padding: 1px;
+                position: absolute;
+                bottom: 10px;
+                right: 15px;
+                border-radius: 3px;
+            }
+            .video-time7 {
+                color: white;
+                background-color: black;
+                padding: 1px;
+                position: absolute;
+                bottom: 10px;
+                right: 15px;
+                border-radius: 3px;
+            }
+            .video-time8 {
+                color: white;
+                background-color: black;
+                padding: 1px;
+                position: absolute;
+                bottom: 10px;
+                right: 15px;
+                border-radius: 3px;
+            }
+            .video-time9 {
+                color: white;
+                background-color: black;
+                padding: 1px;
+                position: absolute;
+                bottom: 10px;
+                right: 15px;
+                border-radius: 3px;
+            }
+
+    .title-text {
+        font-family: "Roboto","Arial",sans-serif;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        Width: 100%;
+    }
+
+    .creator-text {
+        margin-top: 5px;
+        margin-bottom: 0px;
+        Width: 100%;
+    }
+
+    .views-text {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        Width: 100%;
+    }
+    .creator-pic {
+        Width: 100%;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 100px;
+    }
